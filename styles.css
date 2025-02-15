@@ -655,7 +655,7 @@ h1 {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("../images//menu-icon.png");
+  background-image: url("./images//menu-icon.png");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s;
@@ -670,16 +670,16 @@ h1 {
   }
 }
 .icon--phone {
-  background-image: url("../images/phone-icon.png");
+  background-image: url("./images/phone-icon.png");
 }
 .icon--menu {
-  background-image: url("../images/menu-icon.png");
+  background-image: url("./images/menu-icon.png");
 }
 .icon--menu:hover {
-  background-image: url("../images/menu-icon-close.png");
+  background-image: url("./images/menu-icon-close.png");
 }
 .icon--close {
-  background-image: url("../images/menu-close.png");
+  background-image: url("./images/menu-close.png");
 }
 
 .apply {
