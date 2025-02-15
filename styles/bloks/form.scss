@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  input,
+  textarea {
+    padding: 14px 10px;
+    font-family: Cinzel, Times, serif;
+    color:  #969696;
+    border: none;
+    transition: all 0.3s;
+    background: none;
+  }
+
+  .underline {
+    border-bottom: solid 2px #474544;
+  }
+
+  input:hover,
+  textarea:hover {
+    color: #fff;
+    border-bottom: solid 2px #7f826d;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible {
+    color: #fff;
+    outline: none;
+    border-bottom: solid 2px #7f826d;
+  }
+
+  button {
+    margin: 0;
+    padding: 16px 65px;
+    @include onTablet{
+      width: 264px;
+    }
+  }
+}

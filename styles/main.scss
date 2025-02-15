@@ -1,0 +1,60 @@
+@import './utils';
+@import './typography';
+@import './fonts';
+
+@import './bloks/header.scss';
+@import './bloks/top-bar.scss';
+@import './bloks/nav.scss';
+@import './bloks/slider.scss';
+@import './bloks/button.scss';
+@import './bloks/section-title.scss';
+@import './bloks/about-us.scss';
+@import './bloks/expertise.scss';
+@import './bloks/mini-photo.scss';
+@import './bloks/services.scss';
+@import './bloks/card.scss';
+@import './bloks/testimonial.scss';
+@import './bloks/menu.scss';
+@import './bloks/icon.scss';
+
+
+@import './bloks/apply.scss';
+@import './bloks/contact.scss';
+@import './bloks/form.scss';
+@import './bloks/footer.scss';
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background: $c-gray;
+  color: $main-text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-inline: 20px;
+
+  @include onTablet {
+    padding-inline: 40px;
+  }
+
+  @include onSmallDesktop{
+    padding-inline: 54px;
+
+  }
+
+  @include onLargeDesktop{
+    padding-inline: 227px;
+}
+
+  @include onLargeScreen {
+    max-width: 2560px;
+    margin-inline: auto;
+    padding-inline: 707px;
+  }
+}

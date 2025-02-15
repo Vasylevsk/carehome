@@ -1,0 +1,15 @@
+.slider{
+  background-color: white;
+  padding-bottom: 150px;
+
+  &__title{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  &__button{
+    margin-top: 20px;
+    display: flex;
+    text-decoration: none;
+  }
+}

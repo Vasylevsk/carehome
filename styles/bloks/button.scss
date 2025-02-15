@@ -1,0 +1,14 @@
+.button{
+  background-color: $main-blue-color;
+  color: $main-text-button;
+  border: none;
+  border-radius: 8px;
+  margin: auto;
+  padding: 15px 88px;
+  &:hover {
+    background-color: $pressed-button-color;
+  }
+  // &:focus {
+  //   background-color: $pressed-button-color;
+  // }
+}

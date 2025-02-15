@@ -1,0 +1,30 @@
+.section-title {
+  color: #253757;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 150px;
+  text-transform: uppercase;
+
+  &--large{
+    font-size: 52px;
+    line-height: 78px;
+    @include onMobile{
+      font-size: 44px;
+      line-height: 52px;
+    }
+  }
+
+  &--left{
+    padding-top: 0;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #7f826d;
+    text-align: left;
+  }
+}
+

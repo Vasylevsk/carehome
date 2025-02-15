@@ -1,0 +1,19 @@
+.expertise{
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 135px;
+
+  &__cards{
+    padding-top: 64px;
+    @include pageGrid;
+    gap: 48px;
+  }
+
+  &__card{
+    grid-column: -1/ 1;
+    @include onSmallDesktop{
+      grid-column: span 4;
+    }
+  }
+}
+

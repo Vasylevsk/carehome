@@ -1,0 +1,114 @@
+.services{
+  padding-block: 150px;
+  &__wrap{
+    @include pageGrid;
+    // display: flex;
+    // justify-content: space-between;
+    // flex-direction: column;
+
+    // @include onSmallDesktop{
+    //   flex-direction: row;
+    // }
+  }
+
+  &__content{
+    grid-column: -1 /1;
+    padding-bottom: 56px;
+    max-width: 280px;
+    color: #6C788B;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+
+    @include onSmallDesktop{
+      max-width: 340px;
+      grid-column: span 4;
+    }
+  }
+
+  &__second-title{
+    color: #253757;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+  }
+
+  &__cards {
+    display: grid;
+    gap: 30px;
+    align-items: center;
+
+    grid-column: -1 /1;
+
+    @include onTablet{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include onSmallDesktop{
+      grid-column: 7/12;
+     }
+  }
+
+  &__card {
+    padding: 32px;
+    text-align: left;
+    @include onTablet{
+      &:nth-child(even) {
+        // transform: translateY(100px);
+        margin-top: -100px;
+    }
+    }
+  }
+
+  &__card-number {
+    background: #eae6de;
+    color: #a78160;
+    font-weight: bold;
+    border-radius: 23px;
+    width: fit-content;
+    padding: 2px 12px;
+    display: inline-block;
+  }
+
+  &__card-content {
+    padding: 24px 0 32px 0;
+    max-width: 300px;
+  }
+
+  &__arrow{
+    width: 16px;
+    height: 16px;
+  }
+
+  &__button{
+    color: #fff;
+    // background-image: url('../images/sub-title/arrow.svg');
+    // background-size: cover;
+    // background-position: center;
+    width: 40px;
+    margin: 0;
+    padding: 12px 12px 9px 12px;
+    // padding: 12px;
+    border-radius: 50%;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  &__learn-more {
+    text-decoration: none;
+    color: #334563;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+
+  // &__button::before {
+  //   width: 16px;
+  //   height: 16px;
+  //   content: "\2192";
+  //   font-size: 16px;
+  // }
+}

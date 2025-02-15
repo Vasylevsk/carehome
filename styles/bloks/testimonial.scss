@@ -1,0 +1,36 @@
+.testimonial{
+  padding-bottom: 148px;
+
+  &__second-title{
+    color: #253757;
+    font-size: 32px;
+    line-height: 48px;
+    &--string{
+      display: inline-block;
+
+      @include onTablet{
+        display: block;
+      }
+    }
+  }
+
+  &__cards{
+    padding-top: 64px;
+    @include pageGrid;
+    gap: 48px;
+  }
+
+  &__card{
+    padding: 100px 56px;
+    text-align: center;
+    align-items: center;
+    grid-column: -1/ 1;
+    @include onSmallDesktop{
+      grid-column: span 4;
+    }
+
+    &:hover{
+      transform: translateY(-15px);
+    }
+  }
+}
