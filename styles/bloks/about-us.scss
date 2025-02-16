@@ -4,6 +4,8 @@
   &__description{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   &__text{
     max-width: 820px;
