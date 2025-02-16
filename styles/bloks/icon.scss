@@ -2,7 +2,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('../images//menu-icon.png');
+    background-image: url('./images//menu-icon.png');
     background-size: cover;
     background-position: center;
   
@@ -14,19 +14,19 @@
     }
   
     &--phone {
-      background-image: url('../images/phone-icon.png');
+      background-image: url('./images/phone-icon.png');
     }
   
     &--menu {
-      background-image: url('../images/menu-icon.png');
+      background-image: url('./images/menu-icon.png');
   
       &:hover {
-        background-image: url('../images/menu-icon-close.png');
+        background-image: url('./images/menu-icon-close.png');
       }
     }
   
     &--close {
-      background-image: url('../images/menu-close.png');
+      background-image: url('./images/menu-close.png');
     }
   }
   
