@@ -118,12 +118,22 @@
                 Ofsted
                 </a>
               </li>
+
               <li class="nav__item">
                 <a
                   class="nav__link"
                   href="#services"
                 >
                 Reviews
+                </a>
+              </li>
+
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#apply"
+                >
+                JOBS & CAREERS
                 </a>
               </li>
               <li class="nav__item">
@@ -176,8 +186,8 @@
         <div class="container">
           <h2 class="section-title">About us</h2>
           <div class="about-us__description">
-            <p class="about-us__text">Exertive Care Group is a specialized organization dedicated to supporting children and teenagers aged 11 to 18 who have lost parental care. Whether due to the passing of their parents or other difficult circumstances, these young individuals deserve love, guidance, and a safe environment where they can grow, learn, and build a future.            </p>
-            <p class="about-us__text">Our mission is to provide a nurturing and supportive space where every child feels valued, understood, and empowered. We recognize that children who have experienced loss or hardship need more than just basic care—they need emotional support, education, and opportunities to develop essential life skills.            </p>
+            <p class="about-us__text">Exertive Care Group is a specialised organisation dedicated to supporting children and teenagers aged 11 to 18 who have lost parental care. Whether due to the passing of their parents or other difficult circumstances, these young individuals deserve love, guidance, and a safe environment where they can grow, learn, and build a future.            </p>
+            <p class="about-us__text">Our mission is to provide a nurturing and supportive space where every child feels valued, understood, and empowered. We recognise that children who have experienced loss or hardship need more than just basic care—they need emotional support, education, and opportunities to develop essential life skills.            </p>
             <p class="about-us__text">That’s why we offer a holistic approach to help every child gain confidence, build relationships, and prepare for a successful future.            </p>
           </div>
         </div>
@@ -292,7 +302,7 @@
               </div>
               <div class="card services__card">
                 <div class="services__card-number">Review 3</div>
-                <div class="services__card-content">A truly caring and life-changing organization. They give kids a future!</div>
+                <div class="services__card-content">A truly caring and life-changing organisation. They give kids a future!</div>
                 <div class="services__link">
                   <p class="services__learn-more">Sarah, Foster Parent</p>
                 </div>
@@ -309,12 +319,29 @@
         </div>
       </section>
 
+      <section class="apply" id="apply">
+        <div class="container">
+          <div class="apply__bg">
+            <h2 class="section-title">JOBS & CAREERS</h2>
+            <p class="apply__content">Do you care to make a difference? </p>
+            <p class="apply__content"> Would you like to be part of a community where everyone matters?</p>
+            <p class="apply__content"> Do you have the attitude and motivation needed to work with young people?</p>
+            <a href="#contact" class="slider__button"><button class="button apply__button">Apply for a job</button></a>
+          </div>
+        </div>
+      </section>
+
       <section class="contact" id="contact">
         <div class="container">
           <div class="contact__wrapp">
             <div class="contact__form">
               <h3 class="contact__title">Send us  a message</h3>
               <form class="form" action="https://formspree.io/f/xqaegkbg" method="POST">
+                <select name="category" id="category" name="category" class="select underline" required>
+                    <option value="general">Select a Topic:</option>
+                    <option value="support">Apply for a client</option>
+                    <option value="volunteer">Apply for a job</option>
+                </select>
                 <input type="email" id="email" name="email" placeholder="email@exa" class="input underline" required/>
                 <input type="text" id="name" name="name" placeholder="Your name" class="input underline" required/>
                 <textarea placeholder="Your message" id="message" name="message" class="text underline" required></textarea>
@@ -350,6 +377,14 @@
               <a href="#about-us" class="nav__link"><li class="nav__item">About Us</li></a>
               <a href="#ofsed" class="nav__link"><li class="nav__item">Ofsted</li></a>
               <a href="#services" class="nav__link"><li class="nav__item">Reviews</li></a>
+              <li class="nav__item">
+                <a
+                  class="nav__link"
+                  href="#apply"
+                >
+                JOBS & CAREERS
+                </a>
+              </li>
               <a href="#contact" class="nav__link"><li class="nav__item">Contact</li></a>
             </ul>
           </nav>

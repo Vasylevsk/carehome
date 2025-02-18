@@ -28,9 +28,14 @@
 
   &__second-title{
     color: #253757;
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 22px;
+    line-height: 32px;
     font-weight: 600;
+
+    @include onTablet{
+      font-size: 32px;
+      line-height: 42px;
+    }
   }
 
   &__cards {
