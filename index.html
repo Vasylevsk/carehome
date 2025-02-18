@@ -338,12 +338,13 @@
               <h3 class="contact__title">Send us  a message</h3>
               <form class="form" action="https://formspree.io/f/xqaegkbg" method="POST">
                 <select name="category" id="category" name="category" class="select underline" required>
-                    <option value="general">Select a Topic:</option>
-                    <option value="support">Apply for a client</option>
-                    <option value="volunteer">Apply for a job</option>
+                    <option value="no-select-topic">Select a Topic:</option>
+                    <option value="client">Apply for a client</option>
+                    <option value="job">Apply for a job</option>
                 </select>
                 <input type="email" id="email" name="email" placeholder="email@exa" class="input underline" required/>
                 <input type="text" id="name" name="name" placeholder="Your name" class="input underline" required/>
+                <input type="tel" name="phone" pattern="^\+?[0-9\s\-]{7,15}$" placeholder="Your number">
                 <textarea placeholder="Your message" id="message" name="message" class="text underline" required></textarea>
                 <button type="submit" class="button">Send</button>
             </form>
