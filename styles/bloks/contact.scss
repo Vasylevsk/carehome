@@ -2,7 +2,10 @@
   background-color: $main-bg-color;
   color: white;
  &__wrapp{
-  @include pageGrid;
+  // @include pageGrid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  &__adress{
@@ -15,10 +18,11 @@
  }
 
  &__form{
-  grid-column: -1 /1;
+  // grid-column: -1 /1;
 
   @include onSmallDesktop{
-    grid-column: span 5;
+    // grid-column: span 5;
+    width: 60%;
    }
  }
 

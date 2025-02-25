@@ -21,8 +21,7 @@
     font-weight: 400;
 
     @include onSmallDesktop{
-      max-width: 340px;
-      grid-column: span 4;
+      grid-column: span 5;
     }
   }
 
@@ -66,12 +65,11 @@
   }
 
   &__card-number {
-    background: #eae6de;
+    // background: #eae6de;
     color: #a78160;
     font-weight: bold;
-    border-radius: 23px;
+    font-size: 17px;
     width: fit-content;
-    padding: 2px 12px;
     display: inline-block;
   }
 

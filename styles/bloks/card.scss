@@ -25,6 +25,10 @@
     object-fit: cover;
     object-position: left;
     z-index: 2;
+
+    &--big{
+      object-position: center;
+    }
   }
 
   &__shape {

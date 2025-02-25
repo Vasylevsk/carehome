@@ -11,7 +11,9 @@ h1 {
   font-style: normal;
 }
 .header {
-  background-color: #1B1212;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg.png");
+  background-size: cover;
+  background-position: center;
   color: #fff;
   height: 100vh;
 }
@@ -328,8 +330,7 @@ h1 {
 }
 @media (min-width: 1024px) {
   .services__content {
-    max-width: 340px;
-    grid-column: span 4;
+    grid-column: span 5;
   }
 }
 .services__second-title {
@@ -370,12 +371,10 @@ h1 {
   }
 }
 .services__card-number {
-  background: #eae6de;
   color: #a78160;
   font-weight: bold;
-  border-radius: 23px;
+  font-size: 17px;
   width: fit-content;
-  padding: 2px 12px;
   display: inline-block;
 }
 .services__card-content {
@@ -430,6 +429,9 @@ h1 {
   object-fit: cover;
   object-position: left;
   z-index: 2;
+}
+.card__photo--big {
+  object-position: center;
 }
 .card__shape {
   position: absolute;
@@ -725,21 +727,9 @@ h1 {
   color: white;
 }
 .contact__wrapp {
-  --columns: 2;
-  display: grid;
-  column-gap: 20px;
-  grid-template-columns: repeat(var(--columns), 1fr);
-}
-@media (min-width: 640px) {
-  .contact__wrapp {
-    --columns: 6;
-    column-gap: 24px;
-  }
-}
-@media (min-width: 1024px) {
-  .contact__wrapp {
-    --columns: 12;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact__adress {
   grid-column: -1/1;
@@ -749,12 +739,9 @@ h1 {
     grid-column: 8/11;
   }
 }
-.contact__form {
-  grid-column: -1/1;
-}
 @media (min-width: 1024px) {
   .contact__form {
-    grid-column: span 5;
+    width: 60%;
   }
 }
 .contact__title {
