@@ -11,7 +11,7 @@ h1 {
   font-style: normal;
 }
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/bg.webp");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -675,7 +675,7 @@ h1 {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("./images//menu-icon.png");
+  background-image: url("./images//menu-icon.webp");
   background-size: cover;
   background-position: center;
   transition: transform 0.3s;
@@ -690,16 +690,16 @@ h1 {
   }
 }
 .icon--phone {
-  background-image: url("./images/phone-icon.png");
+  background-image: url("./images/phone-icon.webp");
 }
 .icon--menu {
-  background-image: url("./images/menu-icon.png");
+  background-image: url("./images/menu-icon.webp");
 }
 .icon--menu:hover {
-  background-image: url("./images/menu-icon-close.png");
+  background-image: url("./images/menu-icon-close.webp");
 }
 .icon--close {
-  background-image: url("./images/menu-close.png");
+  background-image: url("./images/menu-close.webp");
 }
 
 .apply {
