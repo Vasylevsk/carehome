@@ -93,7 +93,7 @@ h1 {
 }
 .top-bar__logo-link {
   display: flex;
-  background-image: url("../images/logo/logo.webp");
+  background-image: url("./images/logo/logo.webp");
   background-repeat: no-repeat;
 }
 .top-bar__hire {
